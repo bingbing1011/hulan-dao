@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle hulan-dao",
+        "command": "hulan-dao:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "hulan-dao",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "hulan-dao:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
